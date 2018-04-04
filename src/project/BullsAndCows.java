@@ -219,7 +219,7 @@ class BullsAndCows extends JFrame implements ActionListener {
     public BullsAndCows() {
         setSize(500, 610);
         setLocation(100, 100);
-        setTitle("Cows and Bulls Game");
+        setTitle("Bulls and Cows");
 
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setResizable(false);
