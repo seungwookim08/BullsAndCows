@@ -1,4 +1,4 @@
-package project;
+package projectBullsAndCows;
 
 import javax.swing.*;
 import javax.swing.text.DefaultCaret;
@@ -9,11 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 class BullsAndCows extends JFrame implements ActionListener {
 
-    /**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
-	private int cows, bulls, target, userInput, randomVar;
+    private int cows, bulls, target, userInput, randomVar;
     private int turnleft,difficultyInt ;
     private long startTime, endTime;
     private int[] diffArray = {12,10,7};
@@ -40,6 +36,8 @@ class BullsAndCows extends JFrame implements ActionListener {
         if (event.getSource() instanceof JButton) {
             JButton eventButton = (JButton) event.getSource();
             if (eventButton.getText() == "Guess") {
+//              if(inputLine.getText()!=null)
+                //      b=Integer.parseInt(s);)
                 guess();
             }
                 
@@ -51,6 +49,7 @@ class BullsAndCows extends JFrame implements ActionListener {
             	helpInstruction();
         }
         if (event.getSource() instanceof JTextField) {
+            //      if(inputLine.getText()!=null)
             guess();
         }
         if (event.getSource() instanceof JMenuItem) {
@@ -219,7 +218,7 @@ class BullsAndCows extends JFrame implements ActionListener {
     public BullsAndCows() {
         setSize(500, 610);
         setLocation(100, 100);
-        setTitle("Bulls and Cows");
+        setTitle("Cows and Bulls Game");
 
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setResizable(false);
