@@ -14,13 +14,14 @@ EXE version is recommended. <br>
 Java (JRE) is required to play. Mostly, there are not a problem to play but if you have a trouble, please visit [this link](http://www.oracle.com/technetwork/java/javase/downloads/jre9-downloads-3848532.html) and download newer JRE version.
 ## How to play
 Firstly, you can choose how many digits you want to have. It means that there is 2, 3, or 4 digits of numbers you can play with. Generally, 4 digits are played. <br><br>
-![alt text](https://github.com/seungwookim08/BullsAndCows/blob/master/img/screenshot1.PNG)
+![alt text](https://github.com/seungwookim08/BullsAndCows/blob/master/img/screenshot1.PNG)<br>
 Once your digits, you can choose difficulty. There are 3 difficulties. The only difference is there are limits of how many turns you can play. Therefore, if you are beginner for example, it is recommened to enter 1 (Easy).<br><br>
-![alt text](https://github.com/seungwookim08/BullsAndCows/blob/master/img/screenshot2.PNG)
+![alt text](https://github.com/seungwookim08/BullsAndCows/blob/master/img/screenshot2.PNG)<br>
 After that, it's playing time. If you choose 4 digits, and difficulty is 1 (easy), then, there are 12 turns to play. <br><br>
 You must enter 4 digits numbers to play (3 digits or 5 digits) input will not work. The program will ask you to enter again). <br>
 Also, importantly, if given number has duplication (for example, 1123, which 1 is duplicated), it is not working too. <br>
 After you entered the value, it looks like image below. <br>
-![alt text](https://github.com/seungwookim08/BullsAndCows/blob/master/img/screenshot3.PNG)
+![alt text](https://github.com/seungwookim08/BullsAndCows/blob/master/img/screenshot3.PNG)<br>
 Keep playing until whether you lose (you lose all your turn) or you win (meaning you get 4 bulls for 4 digits game).<br>
-![alt text](https://github.com/seungwookim08/BullsAndCows/blob/master/img/screenshot4.PNG)
+![alt text](https://github.com/seungwookim08/BullsAndCows/blob/master/img/screenshot4.PNG)<br>
+
